@@ -1,0 +1,324 @@
+@media screen and (max-width: 890px){}
+.khung1 {
+    width: 60%;
+    height: 20%;
+    background-color: #fe6433;
+    text-align: center;
+    margin-left: 20%;
+}
+.khung1:hover {
+    background-color: red;
+    width: 60%;
+    height: 20%;
+}
+.khung1_1 {
+    list-style: none;
+}
+.khung1_2 {
+    margin: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.khung1_2,
+.khung1_2-link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+a.khung1_2-link:hover {
+    color: yellow;
+}
+.khung1_2-link:hover {
+    transform: scale(1.3);
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal__body {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+
+}
+.auth-form__container {
+    padding: 0 32px;
+
+}
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-form__heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.auth-form__form {
+    margin: 30px;
+}
+.auth-form__input {
+    width: 100%;
+    height: 30px;
+}
+.auto-form__policy-link {
+    text-decoration: none;
+}
+
+.auth-form__controls {
+    margin-top: 40px;
+}
+.btn {
+    min-width: 100px;
+    height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.btn.btn__primary{
+    color: white ;
+    background-color: #fe6433;
+    font-weight: 300;
+}
+
+/* .anh1 {  
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+    position: absolute;
+    top: -1%;
+} */
+.anh1 {
+    width: 70PX;
+    height: 70PX;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 3%;
+}
+.anh2 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 53%;
+}
+.anh3{
+    position:relative;
+    overflow:hidden;
+    display: inline-block;
+    background: white;
+    margin-top: 5%;
+}
+.anh3:before {
+    position:absolute;
+    top:0;
+    left:-75%;
+    z-index:2;
+    display:block;
+    content:'';
+    width:50%;
+    height:100%;
+    background:linear-gradient(to right,rgba(255,255,255,0) 0%,rgba(255,255,255,0.3) 100%);
+    transform:skewX(-25deg);
+  }
+.anh3:hover:before {
+    animation:shine .75s;
+  }
+   
+  @keyframes shine {
+      0%   {left: -75%}
+      100% {left: 120%;}
+  }
+.chu1 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.chu1:hover {
+    color: rgb(255, 208, 0);
+}
+.nab {
+    margin-left: 30%;
+}
+.chu3 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.chu3-1:hover {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(219, 243, 7);
+    color: rgb(255, 0, 0);
+}
+.khung2 {
+    width: 32%;
+    height: 20%;
+    background-color: rgb(247, 243, 12);
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.khung2:hover {
+    width: 32%;
+    height: 20%;
+    background-color: rgb(247, 204, 12);
+}
+.khung2_2 {
+    margin: 20px;
+    margin-top: 3%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+a.khung2_3:hover {
+    color: rgb(0, 204, 255);
+}
+.khung2_2,
+.khung2_3 {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.anhfollow {
+    position: absolute;
+    left: 4%;
+}
+.anhfollow:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.tangfollow {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+}
+.tangfollow-1 {
+    text-decoration: none;
+    color: black;
+}
+.tangfollow-2 {
+    color: black;
+    display: flex;
+}
+.anhlike {
+    position: absolute;
+    left: 4%;
+}
+.anhlike:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.tanglike {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.tanglike-1 {
+    text-decoration: none;
+    color: black;
+}
+.anhvideo {
+    position: absolute;
+    left: 4%;
+}
+.anhvideo:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.tangvideo {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.tangvideo-1 {
+    text-decoration: none;
+    color: black;
+}
+.anhlikefanpage {
+    position: absolute;
+    left: 4%;
+}
+.anhlikefanpage:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.likefanpage {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.likefanpage-1 {
+    text-decoration: none;
+    color: black;
+}
+.anhdoitenfanpage {
+    position: absolute;
+    left: 4%;
+}
+.anhdoitenfanpage:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.doitenfanpage {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.doitenfanpage-1 {
+    text-decoration: none;
+    color: black;
+}
+.anhkhoataikhoan {
+    position: absolute;
+    left: 4%;
+}
+.anhkhoataikhoan:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.khoataikhoan {
+    width: 40%;
+    height: 20%;
+    background-color: #00000000;
+    color: black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.khoataikhoan-1 {
+    text-decoration: none;
+    color: black;
+}
